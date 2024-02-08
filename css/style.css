@@ -123,7 +123,8 @@ button {
     font-size: 40px;
 }
 
-/* PLANS */
+/* PLANS  
+TODO Ripeto un sacco di codice, si può migliorare */
 
 .plans-title {
     font-size: 40px;
@@ -175,10 +176,36 @@ button {
 }
 
 .card-info ul{
+    margin: 0px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px 0px;
+}
+
+.card-buy {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px 50px;
+    gap: 35px 0px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #00000033 30%, transparent 70%) 100% 1;
+}
+
+.card-buy a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+.card-highlights {
     margin: 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 25px 0px;
+}
+
+.card-highlights i {
+    color: #0000EE;
 }
 
 
