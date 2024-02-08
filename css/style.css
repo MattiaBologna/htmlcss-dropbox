@@ -208,6 +208,12 @@ TODO Ripeto un sacco di codice, si può migliorare */
     color: #0000EE;
 }
 
+.icon-flex {
+    display: flex;
+    gap: 0px 5px;
+    align-items: baseline;
+}
+
 
 /* Utilities */
 
