@@ -1,0 +1,87 @@
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+}
+
+menu,
+ul,
+ol {
+	list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Layout */
+
+.container-lg {
+    width: 100vw;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-sm {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style */
+
+/* Header */
+
+header .container-lg {
+    padding: 20px;
+}
+
+header .row {
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    align-items: center;
+}
+
+button {
+    background-color: #0061FF;
+    padding: 10px 16px;
+    color: white;
+}
+
+
+
+
+
+/* Utilities */
+
+.flex {
+    display: flex;
+}
