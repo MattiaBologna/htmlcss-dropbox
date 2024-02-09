@@ -56,6 +56,10 @@ body {
     width: calc(4 * 100% / 12);
 }
 
+.col-6 {
+    width: calc(6 * 100% / 12);
+}
+
 .col-8 {
     width: calc(8 * 100% / 12);
 }
@@ -286,6 +290,10 @@ TODO Ripeto un sacco di codice, si può migliorare */
 
 /* REFERENCES  */
 
+.references {
+    margin-bottom: 150px;
+}
+
 .references .row {
     flex-direction: column;
 }
@@ -301,6 +309,24 @@ TODO Ripeto un sacco di codice, si può migliorare */
 }
 
 
+/* BLOKS */
+
+.blocks .col-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blocks img {
+    display: block;
+}
+
+.blocks .col-6 {
+    padding: 100px 80px;
+    display: flex;
+}
+
+
+
 
 /* Utilities */
 
@@ -308,3 +334,40 @@ TODO Ripeto un sacco di codice, si può migliorare */
     display: flex;
 }
 
+/* Backgrounds */
+
+.bg-green {
+    background-color: #A2D39B;
+}
+
+.bg-dark-red {
+    background-color: #61082B;
+}
+
+.bg-blue {
+    background-color: #0093CE;
+}
+
+.bg-orange {
+    background-color: #FF1C1C;
+}
+
+.bg-red {
+    background-color: #D5001F;
+}
+
+.bg-lightblue {
+    background-color: #B4D0E7;
+}
+
+.bg-dark-blue {
+    background-color: #0D2481;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
+}
+
+.white-filter {
+    filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(331deg) brightness(101%) contrast(101%);
+}
