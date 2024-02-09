@@ -323,9 +323,29 @@ TODO Ripeto un sacco di codice, si può migliorare */
 .blocks .col-6 {
     padding: 100px 80px;
     display: flex;
+    height: 50%;
+    width: 50%;
 }
 
+.designit-green {
+    border: 10px solid #D1E9CD;
+}
 
+.block-center {
+    display: flex;
+    padding: 50px;
+}
+
+.block-center img {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #00000033 30%, transparent 70%) 100% 1;
+}
+
+.block-center :last-child {
+    margin-top: 50px;
+}
 
 
 /* Utilities */
