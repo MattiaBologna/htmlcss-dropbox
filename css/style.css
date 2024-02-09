@@ -233,6 +233,27 @@ TODO Ripeto un sacco di codice, si può migliorare */
     margin: 0px 30px 50px;
 }
 
+/* PARTNER */
+
+.partner .col-4 {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0px;
+}
+
+.partner-text {
+    font-size: 14px;
+}
+
+.partner-button button{
+    color: black;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+/* BUSINESS */
 
 /* Utilities */
 
