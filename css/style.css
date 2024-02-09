@@ -253,7 +253,42 @@ TODO Ripeto un sacco di codice, si può migliorare */
     border: 1px solid black;
 }
 
+.partner {
+    margin-bottom: 150px;
+}
+
 /* BUSINESS */
+
+.business-title h2{
+    font-size: 38px;
+    margin-bottom: 80px;
+}
+
+.business-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 0px;
+    font-size: 14px;
+}
+
+.business-card h4 {
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.business-card {
+    padding: 0px 25px
+}
+
+.business {
+    margin-bottom: 200px;
+}
+
+.references h2 {
+    font-size: 38px;
+}
+
+
 
 /* Utilities */
 
