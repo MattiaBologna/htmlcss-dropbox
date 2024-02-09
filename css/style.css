@@ -284,8 +284,20 @@ TODO Ripeto un sacco di codice, si può migliorare */
     margin-bottom: 200px;
 }
 
+/* REFERENCES  */
+
+.references .row {
+    flex-direction: column;
+}
+
 .references h2 {
     font-size: 38px;
+    margin-bottom: 70px;
+}
+
+.references a {
+    color: #0000EE;
+    text-decoration: underline;
 }
 
 
