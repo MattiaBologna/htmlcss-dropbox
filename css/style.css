@@ -347,6 +347,29 @@ TODO Ripeto un sacco di codice, si può migliorare */
     margin-top: 50px;
 }
 
+/* FREE TRIAL  */
+
+.free-trial {
+    background-color: #B4D0E7;
+}
+
+.free-trial .row {
+    justify-content: space-between;
+    padding: 130px 0px;
+}
+
+.free-trial h2 {
+    font-size: 38px;
+}
+
+.free-trial button {
+    align-self: flex-start;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 10px 50px;
+}
+
 
 /* Utilities */
 
