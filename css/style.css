@@ -444,11 +444,19 @@ footer .col-20 {
 /* HOVERS / TRANSITIONS */
 
 .blue-button {
-    transition: all 0.2s ease-in;
+    transition: background-color 0.2s ease-in;
 }
 
 .blue-button:hover {
     background-color: #0044b1;
+}
+
+.bold-hover {
+    transition: font-weight 0.5s;
+}
+
+.bold-hover:hover {
+    font-weight: bold;
 }
 
 
