@@ -430,6 +430,17 @@ footer .col-20 {
     border-image: linear-gradient(to right, #FFFFFF33 30%, transparent 70%) 100% 1;
 }
 
+/* Features */
+
+.blue-button {
+    transition: all 0.2s ease-in;
+}
+
+.blue-button:hover {
+    background-color: #0044b1;
+}
+
+
 
 
 /* Utilities */
