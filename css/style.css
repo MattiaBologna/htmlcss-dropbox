@@ -128,7 +128,7 @@ button {
 }
 
 .hero-txt-bottom {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 22px;
 }
 
@@ -328,7 +328,7 @@ TODO Ripeto un sacco di codice, si può migliorare */
 .blocks .col-6 {
     padding: 100px 80px;
     display: flex;
-    height: 50%;
+    aspect-ratio: 1/1;
     width: 50%;
 }
 
