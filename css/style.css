@@ -437,6 +437,10 @@ footer .col-20 {
     border-image: linear-gradient(to right, #FFFFFF33 30%, transparent 70%) 100% 1;
 }
 
+.language {
+    color: #999999;
+}
+
 /* HOVERS / TRANSITIONS */
 
 .blue-button {
